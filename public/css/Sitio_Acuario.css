@@ -861,7 +861,19 @@ textarea {
     max-width: 100%; }
 
   .padd_top_slider {
-    padding-top: 12rem; } }
+    padding-top: 12rem; } 
+
+.img_info {
+  height: 375px; }
+
+.border_info_top {
+  border-top: solid 1px #00e4ff;
+  border-bottom: none; }
+
+.border_info_bottom {
+  border-top: none;
+  border-bottom: solid 1px #00e4ff; } }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar {
     padding: 1rem .5rem !important; }
