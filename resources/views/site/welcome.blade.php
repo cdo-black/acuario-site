@@ -38,16 +38,15 @@
           </div>
 </section>
     
-        <section class="container padd_small_top marg_content_bottom">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-6 wow fadeInUp" data-wow-duration="1s"  data-wow-delay="0.5s">
-                    <div class="ratio ratio-16x9 border_video">
-                        <iframe src="https://www.youtube.com/embed/3I5zCJJmCVw?rel=0" title="YouTube video" allowfullscreen></iframe>
-                    </div>
-                </div>
+<section class="container padd_small_top marg_content_bottom">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 wow fadeInUp" data-wow-duration="1s"  data-wow-delay="0.5s">
+            <div class="ratio ratio-16x9 border_video">
+                <iframe src="https://www.youtube.com/embed/3I5zCJJmCVw?rel=0" title="YouTube video" allowfullscreen></iframe>
             </div>
-        </section>
-
+        </div>
+    </div>
+</section>
       
 <section class="container">
     <div class="row justify-content-center m-0">
@@ -120,9 +119,9 @@
     </div>
 </main>
 	
-<article class="container-fluid bg_div_especies marg_content_bottom">
-    <div class="row p-4 justify-content-end">
-        <div class="col-12 col-lg-4 border_div_especies text-center color_celeste me-0 me-lg-5 wow fadeInRight" data-wow-duration="1s" dta-wow-delay="1.5s">
+<article class="container-fluid bg_div_especies marg_content_bottom align-items-center d-flex">
+    <div class="row p-4 justify-content-end align-items-center">
+        <div class="col-12 col-lg-6 border_div_especies text-center color_celeste me-0 me-lg-5 wow fadeInRight" data-wow-duration="1s" dta-wow-delay="1.5s">
             <h1 class="tit_general">Diversidad de Especies</h1>
             <p class=" pt-4">Sin duda nuestros océanos están llenas de especies marinas y de agua dulce. Déjate sorprende por nuestras diversas especies desde la pequeña estrella de mar Chilena conocida como “Estrella Enana” hasta un gran pez gato conocido como “Bagre cola Roja”. 
             </p>
