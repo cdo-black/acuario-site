@@ -6,15 +6,16 @@
                         <div class="carousel-item active">
                              <div class="row align-items-center justify-content-center">
                                  <div class="col12 col-lg-4 text-white text-center text-lg-start order-2 order-lg-1 pt-5 pt-lg-0">
-                                 <!-- <p class="nuevo">Cerrado</p> -->
-                                 <h1 class="tit_carrusel"> Acuario de Valparaiso</h1>
-                                    <h2 class="subtit_carrusel">Un mundo a explorar</h2>
-                                    <p class="pt-3">Disfruta de una experiencia extraordinaria a través de un recorrido guiado, donde podrás conocer especies marinas Chilenas, del río Amazonas y de los arrecifes tropicales.</p>
-                                    <!-- <button class="btn_gral mt-3" data-bs-toggle="modal" data-bs-target="#modal1">Información</button> -->
+                                 <p class="nuevo">atención</p>
+                                 <h1 class="tit_carrusel">¿VACACIONES DE INVIERNO?</h1>
+                                    <h2 class="subtit_carrusel">¡SÍ, NO TE LO PUEDES PERDER!</h2>
+                                    <p class="pt-3">
+                                        Tenemos el mejor panorama para estas vacaciones de invierno, ven a disfrutar de la fauna marina Chilena y del mundo, fósiles reales de hace millones de años y muchas otras novedades.
+                                    </p>
                                  </div>
  
                                  <div class="col12 col-lg-6 order-1">
-                                    <img src="img/animal1.png" class="d-block w-100" alt="Animal Acuario">
+                                    <img src="img/animal5.png" class="d-block w-100" alt="Animal Acuario">
                                  </div>
                              </div>
                          </div>
