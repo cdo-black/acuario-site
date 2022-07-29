@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,22 +13,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('site.welcome');
-})->name('welcome');
-
-Route::get('/nosotros', function () {
-    return view('site.about');
-})->name('nosotros');
-
-Route::get('/colegios', function () {
-    return view('site.coleges');
-})->name('colegios');
-
-Route::get('/contacto', function () {
-    return view('site.contact');
-})->name('contacto');
+Route::get('/', [PageController::class, 'welcome'])->name('welcome');
+Route::get('/nosotros', [PageController::class, 'about'])->name('nosotros');
+Route::get('/colegios', [PageController::class, 'coleges'])->name('colegios');
+Route::get('/contacto', [PageController::class, 'contact'])->name('contacto');
 
 Route::middleware([
     'auth:sanctum',

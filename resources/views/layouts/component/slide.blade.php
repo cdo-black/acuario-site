@@ -1,5 +1,5 @@
 <div class="container padd_top_slider">
-                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
                     <div class="carousel-inner">
                         
                         <!--SLIDER 1-->
@@ -70,24 +70,20 @@
                             </div>
                         </div> -->
 
-
-                        
-
-
                     </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+    </button>
+</div>
             
-            <!--MODAL 1-->
-            <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!--MODAL 1-->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content marg_content_top marg_content_bottom">
                         <div class="modal-header p-0 m-0">
@@ -121,10 +117,10 @@
                         </div>
                     </div>
                 </div>
-            </div>    
+</div>    
             
-            <!--MODAL 2-->
-            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!--MODAL 2-->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content marg_content_top marg_content_bottom">
                         <div class="modal-header p-0 m-0">
@@ -156,10 +152,10 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+</div>  
             
-            <!--MODAL 3-->
-            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!--MODAL 3-->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content marg_content_top marg_content_bottom">
                         <div class="modal-header p-0 m-0">
@@ -191,10 +187,10 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+</div>  
             
-            <!--MODAL 4-->
-            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!--MODAL 4-->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content marg_content_top marg_content_bottom">
                         <div class="modal-header p-0 m-0">
@@ -226,4 +222,4 @@
                         </div>
                     </div>
                 </div>
-            </div>
+</div>

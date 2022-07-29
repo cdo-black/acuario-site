@@ -31,7 +31,7 @@
         <header class="@yield('header')">
 
             <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="{{ route('welcome') }}">
                     <img src="{{ asset('img/logo_acuario_horizontal.svg') }}" height="40" alt="Logo Acuario valparaíso" loading="lazy">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
