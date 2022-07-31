@@ -1,84 +1,36 @@
 <div class="container padd_top_slider">
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
-                    <div class="carousel-inner">
-                        
-                        <!--SLIDER 1-->
-                        <div class="carousel-item active">
-                             <div class="row align-items-center justify-content-center">
-                                 <div class="col12 col-lg-4 text-white text-center text-lg-start order-2 order-lg-1 pt-5 pt-lg-0">
-                                 <p class="nuevo">atención</p>
-                                 <h1 class="tit_carrusel">¿VACACIONES DE INVIERNO?</h1>
-                                    <h2 class="subtit_carrusel">¡SÍ, NO TE LO PUEDES PERDER!</h2>
-                                    <p class="pt-3">
-                                        Tenemos el mejor panorama para estas vacaciones de invierno, ven a disfrutar de la fauna marina Chilena y del mundo, fósiles reales de hace millones de años y muchas otras novedades.
-                                    </p>
-                                 </div>
- 
-                                 <div class="col12 col-lg-6 order-1">
-                                    <img src="img/animal5.png" class="d-block w-100" alt="Animal Acuario">
-                                 </div>
-                             </div>
-                         </div>
-
-                        <!--MODAL 2-->
-                        <div class="carousel-item">
-                            <div class="row align-items-center justify-content-center">
-                                <div class="col12 col-lg-4 text-white text-center text-lg-start order-2 order-lg-1">
-                                    <h1 class="tit_carrusel">Amazonas</h1>
-                                    <h2 class="subtit_carrusel">El rio más caudaloso del mundo</h2>
-                                    <p class="pt-3">6.500 litros de agua dulce en nuestro acuario, Ven a conocer el acuario Amazónico y asombrate con los diferentes peces que tenemos.</p>
-                                    <!-- <button class="btn_gral mt-3" data-bs-toggle="modal" data-bs-target="#modal2">Información</button> -->
-                                </div>
-
-                                <div class="col12 col-lg-6 order-1">
-                                    <img src="img/animal2.png" class="d-block w-100" alt="Animal Acuario">
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--MODAL 3-->
-                        <div class="carousel-item">
-                            <div class="row align-items-center justify-content-center">
-                                <div class="col12 col-lg-4 text-white text-center text-lg-start order-2 order-lg-1 pt-5 pt-lg-0">
-                                    <p class="nuevo">Nuevo</p>
-                                    <h1 class="tit_carrusel">Descubre Fósiles</h1>
-                                    <h2 class="subtit_carrusel">Sala de la evolución</h2>
-                                    <p class="pt-3">Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.</p>
-                                    <!-- <button class="btn_gral mt-3" data-bs-toggle="modal" data-bs-target="#modal3">Información</button> -->
-                                </div>
-
-                                <div class="col12 col-lg-6 order-1">
-                                    <img src="img/animal4.png" class="d-block w-100" alt="Animal Acuario">
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--SLIDER 4-->
-                        <!-- <div class="carousel-item">
-                            <div class="row align-items-center justify-content-center">
-                                <div class="col12 col-lg-4 text-white text-center text-lg-start order-2 order-lg-1">
-                                    <p class="nuevo">Nuevo</p>
-                                    <h1 class="tit_carrusel">Descubre Fósiles</h1>
-                                    <h2 class="subtit_carrusel">Sala de la evolución</h2>
-                                    <p class="pt-3">Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.</p>
-                                    <button class="btn_gral mt-3" data-bs-toggle="modal" data-bs-target="#modal3">Información</button>
-                                </div>
-
-                                <div class="col12 col-lg-6 order-1">
-                                    <img src="img/animal4.png" class="d-block w-100" alt="Animal Acuario">
-                                </div>
-                            </div>
-                        </div> -->
-
+        <div class="carousel-inner">
+            @foreach($slides as $slide)
+            <div class="carousel-item {{ $slide->posicion }}">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col12 col-lg-4 text-white text-center text-lg-start order-2 order-lg-1 pt-5 pt-lg-0">
+                    @if($slide->pretitulo)<p class="nuevo">{{$slide->pretitulo}}</p>@endif
+                    @if($slide->titulo)<h1 class="tit_carrusel">{{$slide->titulo}}</h1>@endif
+                    @if($slide->subtitulo)<h2 class="subtit_carrusel">{{$slide->subtitulo}}</h2>@endif
+                    @if($slide->parrafo)
+                        <p class="pt-3">
+                            {{$slide->parrafo}}
+                        </p>
+                    @endif
                     </div>
+ 
+                    <div class="col12 col-lg-6 order-1">
+                        <img src="{{$slide->imagen}}" class="d-block w-100" alt="Animal Acuario">
+                    </div>
+                </div>
+            </div>
+            @endforeach
+
+        </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
     </button>
 </div>
             

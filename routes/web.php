@@ -18,15 +18,11 @@ Route::get('/nosotros', [PageController::class, 'about'])->name('nosotros');
 Route::get('/colegios', [PageController::class, 'coleges'])->name('colegios');
 Route::get('/contacto', [PageController::class, 'contact'])->name('contacto');
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->prefix('admin')->group(function () {
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+})->name('dashboard');
 
-    Route::get('/dashboard', function () {
-        return view('admin.dashboard');
-    })->name('dashboard');
+Route::prefix('admin')->group(function () {
 
     Route::get('/about', function () {
         return view('admin.about');

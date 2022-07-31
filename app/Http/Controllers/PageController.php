@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Admin\Inicio\Slide;
 
 class PageController extends Controller
 {
     public function welcome()
     {
-        return view('site.welcome');
+        $slides = Slide::where('estado', 'Publico')->get();
+
+        return view('site.welcome', compact('slides'));
     }
 
     public function about()
