@@ -16,8 +16,8 @@ class SlideSeeder extends Seeder
     public function run()
     {
         Slide::insert([
-            'estado' => 'Publico',
-            'posicion' => 'active',
+            'estado' => 'Borrador',
+            'posicion' => 'inactive',
             'pretitulo' => 'atención',
             'titulo' => '¿VACACIONES DE INVIERNO?',
             'subtitulo' => '¡SÍ, NO TE LO PUEDES PERDER!',
@@ -40,6 +40,16 @@ class SlideSeeder extends Seeder
             'subtitulo' => 'Sala de la evolución',
             'parrafo' => 'Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.',
             'imagen' => 'img/animal4.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'Concurso',
+            'titulo' => 'Celebramos el',
+            'subtitulo' => 'día del niño',
+            'parrafo' => 'Porque deseamos que este día sea especial para ti, queremos que nos visites y que disfrutemos juntos la maravillosa vida acuática de nuestros animales marinos.',
+            'imagen' => 'img/animal6.png',
         ]);
     }
 }
