@@ -43,12 +43,22 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Concurso',
             'titulo' => 'Celebramos el',
             'subtitulo' => 'día del niño',
             'parrafo' => 'Porque deseamos que este día sea especial para ti, queremos que nos visites y que disfrutemos juntos la maravillosa vida acuática de nuestros animales marinos.',
+            'imagen' => 'img/animal6.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'atención',
+            'titulo' => 'Abierto al Público',
+            'subtitulo' => 'Lunes 15 de agosto',
+            'parrafo' => '¿Fin de semana Largo? Estaremos atendiendo de manera normal, Para que puedas disfrutar de un día agradable, conociendo nuestra fauna marina y aprendiendo de todas las maravillas acuáticas.',
             'imagen' => 'img/animal6.png',
         ]);
     }
