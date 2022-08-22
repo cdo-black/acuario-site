@@ -74,7 +74,7 @@
             </p>
             <p>
                 Adulto mayor sobre los 60 años.
-                $4.900
+                $3.900
             </p>
             <p>
                 Colegios previa reserva
