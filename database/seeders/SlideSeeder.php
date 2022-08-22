@@ -53,13 +53,21 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'atención',
             'titulo' => 'Abierto al Público',
             'subtitulo' => 'Lunes 15 de agosto',
             'parrafo' => '¿Fin de semana Largo? Estaremos atendiendo de manera normal, Para que puedas disfrutar de un día agradable, conociendo nuestra fauna marina y aprendiendo de todas las maravillas acuáticas.',
             'imagen' => 'img/animal6.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'titulo' => 'Acuario de Valparaíso',
+            'subtitulo' => 'Todo un mundo a explorar',
+            'parrafo' => 'Disfruta de una experiencia extraordinaria a través de un recorrido guiado, donde podrás conocer especies marinas Chilenas, del río Amazonas y de los arrecifes tropicales.',
+            'imagen' => 'img/animal1.png',
         ]);
     }
 }
