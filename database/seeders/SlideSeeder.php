@@ -64,6 +64,7 @@ class SlideSeeder extends Seeder
 
         Slide::insert([
             'estado' => 'Publico',
+            'posicion' => 'active',
             'titulo' => 'Acuario de Valparaíso',
             'subtitulo' => 'Todo un mundo a explorar',
             'parrafo' => 'Disfruta de una experiencia extraordinaria a través de un recorrido guiado, donde podrás conocer especies marinas Chilenas, del río Amazonas y de los arrecifes tropicales.',
