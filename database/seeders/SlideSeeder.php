@@ -63,12 +63,22 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'active',
             'titulo' => 'Acuario de Valparaíso',
             'subtitulo' => 'Todo un mundo a explorar',
             'parrafo' => 'Disfruta de una experiencia extraordinaria a través de un recorrido guiado, donde podrás conocer especies marinas Chilenas, del río Amazonas y de los arrecifes tropicales.',
             'imagen' => 'img/animal1.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'cerrado',
+            'titulo' => 'por plebicito de salida',
+            'subtitulo' => '',
+            'parrafo' => 'Acuario de Valparaiso se mantendrá cerrado el día Domingo 04 Septiembre',
+            'imagen' => '',
         ]);
     }
 }

@@ -16,7 +16,9 @@
                     </div>
  
                     <div class="col12 col-lg-6 order-1">
-                        <img src="{{$slide->imagen}}" class="d-block w-100" alt="Animal Acuario">
+                        @if($slide->imagen)
+                        <img src="{{ $slide->imagen }}" class="d-block w-100" alt="Animal Acuario">
+                        @endif
                     </div>
                 </div>
             </div>
