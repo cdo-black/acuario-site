@@ -72,13 +72,23 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'cerrado',
             'titulo' => 'por plebicito de salida',
             'subtitulo' => '',
             'parrafo' => 'Acuario de Valparaiso se mantendrá cerrado el día Domingo 04 Septiembre',
             'imagen' => '',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'descuentos',
+            'titulo' => 'chilenidad',
+            'subtitulo' => 'nos vestimos de chilenidad',
+            'parrafo' => 'En fiestas patrias nos vestimos de chilenidad, con excelentes descuentos',
+            'imagen' => 'img/animal7.png',
         ]);
     }
 }
