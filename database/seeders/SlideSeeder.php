@@ -85,9 +85,9 @@ class SlideSeeder extends Seeder
             'estado' => 'Publico',
             'posicion' => 'active',
             'pretitulo' => 'descuentos',
-            'titulo' => 'chilenidad',
-            'subtitulo' => 'nos vestimos de chilenidad',
-            'parrafo' => 'En fiestas patrias nos vestimos de chilenidad, con excelentes descuentos',
+            'titulo' => 'En Fiestas Patrias, Visítanos',
+            'subtitulo' => '¡Ven con toda tu familia!',
+            'parrafo' => 'Tenemos descuentos exclusivos para tí, revisa más información en nuestras Redes Sociales, síguenos y comenta. Te Esperamos!',
             'imagen' => 'img/animal7.png',
         ]);
     }
