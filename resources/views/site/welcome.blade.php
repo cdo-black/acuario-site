@@ -66,7 +66,7 @@
             <h1 class="tit_general pb-2">Valores</h1>
             <p>
                 Público General
-                $3.900
+                $4.900
             </p>
             <p>
                 Niños de 2 a 12 años. 
