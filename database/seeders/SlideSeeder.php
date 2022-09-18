@@ -15,6 +15,17 @@ class SlideSeeder extends Seeder
      */
     public function run()
     {
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'inactive',
+            'pretitulo' => 'descuentos',
+            'titulo' => 'En Fiestas Patrias, Visítanos',
+            'subtitulo' => '¡Ven con toda tu familia!',
+            'parrafo' => 'Tenemos descuentos exclusivos para tí, revisa más información en nuestras Redes Sociales, síguenos y comenta. Te Esperamos!',
+            'imagen' => 'img/animal7.png',
+        ]);
+        
         Slide::insert([
             'estado' => 'Borrador',
             'posicion' => 'inactive',
@@ -79,16 +90,6 @@ class SlideSeeder extends Seeder
             'subtitulo' => '',
             'parrafo' => 'Acuario de Valparaiso se mantendrá cerrado el día Domingo 04 Septiembre',
             'imagen' => '',
-        ]);
-
-        Slide::insert([
-            'estado' => 'Borrador',
-            'posicion' => 'active',
-            'pretitulo' => 'descuentos',
-            'titulo' => 'En Fiestas Patrias, Visítanos',
-            'subtitulo' => '¡Ven con toda tu familia!',
-            'parrafo' => 'Tenemos descuentos exclusivos para tí, revisa más información en nuestras Redes Sociales, síguenos y comenta. Te Esperamos!',
-            'imagen' => 'img/animal7.png',
         ]);
 
         Slide::insert([
