@@ -82,13 +82,23 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'descuentos',
             'titulo' => 'En Fiestas Patrias, Visítanos',
             'subtitulo' => '¡Ven con toda tu familia!',
             'parrafo' => 'Tenemos descuentos exclusivos para tí, revisa más información en nuestras Redes Sociales, síguenos y comenta. Te Esperamos!',
             'imagen' => 'img/animal7.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'Fiestas Patrias',
+            'titulo' => 'Seguimos con nuestra chilenidad',
+            'subtitulo' => 'Abierto 17, 18 y 19 de Septiembre',
+            'parrafo' => '',
+            'imagen' => 'img/animal8.png',
         ]);
     }
 }
