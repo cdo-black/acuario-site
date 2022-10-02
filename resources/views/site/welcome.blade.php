@@ -26,9 +26,8 @@
               <article class="col-12 col-lg-6 col-xl-5 color_celeste border_info_bottom  pb-5 text-center text-lg-start">
                    <h1 class="tit_general text-center pb-3">Información importante que debes conocer</h1>
                     <p >
-                         - Se solicitará pase de movilidad habilitado más cedula de identidad o pasaporte para todas las personas mayores de 12 años. <br>
-                        - Ingreso por orden de llegada con aforo limitado.<br>
-                        - Solo se puede visitar el Acuario a través de un recorrido guiado de 30 minutos.<br>
+                        - Ingreso por orden de llegada, con cantidad limitada.<br>
+                        - Solo se puede visitar el Acuario a través de un recorrido guiado de 30 minutos.<br>
                         - Las entradas se adquieren en caja principal el mismo día de tu visita.<br>
                         - Te invitamos a seguir nuestras redes sociales donde podrás encontrar información actualizada de horario de ingreso para publico general en el caso que existan visitas de establecimientos educacionales.<br>
                         - Solo existe acceso por escaleras.<br>
