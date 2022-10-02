@@ -17,7 +17,7 @@ class SlideSeeder extends Seeder
     {
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'inactive',
             'pretitulo' => 'descuentos',
             'titulo' => 'En Fiestas Patrias, Visítanos',
@@ -93,13 +93,23 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Fiestas Patrias',
             'titulo' => 'Seguimos con nuestra chilenidad',
             'subtitulo' => 'Abierto 17, 18 y 19 de Septiembre',
             'parrafo' => '',
             'imagen' => 'img/animal8.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'Atención',
+            'titulo' => 'Relájate',
+            'subtitulo' => '¡tenemos una gran noticia!',
+            'parrafo' => 'Desde hoy nos puedes visitar sin mascarilla y sin pase de movilidad, para seguir compartiendo juntos de nuestra Fauna Marina',
+            'imagen' => 'img/animal9.png',
         ]);
     }
 }
