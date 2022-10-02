@@ -15,6 +15,39 @@ class SlideSeeder extends Seeder
      */
     public function run()
     {
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'Atención',
+            'titulo' => 'Relájate',
+            'subtitulo' => '¡tenemos una gran noticia!',
+            'parrafo' => 'Desde hoy nos puedes visitar sin mascarilla y sin pase de movilidad, para seguir compartiendo juntos de nuestra Fauna Marina',
+            'imagen' => 'img/animal9.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'titulo' => 'Acuario de Valparaíso',
+            'subtitulo' => 'Todo un mundo a explorar',
+            'parrafo' => 'Disfruta de una experiencia extraordinaria a través de un recorrido guiado, donde podrás conocer especies marinas Chilenas, del río Amazonas y de los arrecifes tropicales.',
+            'imagen' => 'img/animal1.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'titulo' => 'Amazonas',
+            'subtitulo' => 'El rio más caudaloso del mundo',
+            'parrafo' => '6.500 litros de agua dulce en nuestro acuario, Ven a conocer el acuario Amazónico y asombrate con los diferentes peces que tenemos.',
+            'imagen' => 'img/animal2.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'titulo' => 'Descubre Fósiles',
+            'subtitulo' => 'Sala de la evolución',
+            'parrafo' => 'Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.',
+            'imagen' => 'img/animal4.png',
+        ]);
 
         Slide::insert([
             'estado' => 'Borrador',
@@ -34,23 +67,6 @@ class SlideSeeder extends Seeder
             'subtitulo' => '¡SÍ, NO TE LO PUEDES PERDER!',
             'parrafo' => 'Tenemos el mejor panorama para estas vacaciones de invierno, ven a disfrutar de la fauna marina Chilena y del mundo, fósiles reales de hace millones de años y muchas otras novedades.',
             'imagen' => 'img/animal5.png',
-        ]);
-
-        Slide::insert([
-            'estado' => 'Publico',
-            'titulo' => 'Amazonas',
-            'subtitulo' => 'El rio más caudaloso del mundo',
-            'parrafo' => '6.500 litros de agua dulce en nuestro acuario, Ven a conocer el acuario Amazónico y asombrate con los diferentes peces que tenemos.',
-            'imagen' => 'img/animal2.png',
-        ]);
-
-        Slide::insert([
-            'estado' => 'Publico',
-            'pretitulo' => 'Nuevo',
-            'titulo' => 'Descubre Fósiles',
-            'subtitulo' => 'Sala de la evolución',
-            'parrafo' => 'Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.',
-            'imagen' => 'img/animal4.png',
         ]);
 
         Slide::insert([
@@ -76,15 +92,6 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Borrador',
             'posicion' => 'active',
-            'titulo' => 'Acuario de Valparaíso',
-            'subtitulo' => 'Todo un mundo a explorar',
-            'parrafo' => 'Disfruta de una experiencia extraordinaria a través de un recorrido guiado, donde podrás conocer especies marinas Chilenas, del río Amazonas y de los arrecifes tropicales.',
-            'imagen' => 'img/animal1.png',
-        ]);
-
-        Slide::insert([
-            'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'cerrado',
             'titulo' => 'por plebicito de salida',
             'subtitulo' => '',
@@ -100,16 +107,6 @@ class SlideSeeder extends Seeder
             'subtitulo' => 'Abierto 17, 18 y 19 de Septiembre',
             'parrafo' => '',
             'imagen' => 'img/animal8.png',
-        ]);
-
-        Slide::insert([
-            'estado' => 'Publico',
-            'posicion' => 'active',
-            'pretitulo' => 'Atención',
-            'titulo' => 'Relájate',
-            'subtitulo' => '¡tenemos una gran noticia!',
-            'parrafo' => 'Desde hoy nos puedes visitar sin mascarilla y sin pase de movilidad, para seguir compartiendo juntos de nuestra Fauna Marina',
-            'imagen' => 'img/animal9.png',
         ]);
     }
 }
