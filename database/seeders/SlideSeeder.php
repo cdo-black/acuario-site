@@ -19,6 +19,15 @@ class SlideSeeder extends Seeder
             'estado' => 'Publico',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
+            'titulo' => 'Visitanos',
+            'subtitulo' => 'Éste fin de semana largo 8-9-10 de Octubre',
+            'parrafo' => 'En este fin de semana largo si viajas a la costa no olvides pasar a visitarnos, estaremos atendiendo normalmente para que puedas disfrutar de esta gran experiencia marina.',
+            'imagen' => 'img/animal10.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'pretitulo' => 'Atención',
             'titulo' => 'Relájate',
             'subtitulo' => '¡tenemos una gran noticia!',
             'parrafo' => 'Desde hoy nos puedes visitar sin mascarilla y sin pase de movilidad, para seguir compartiendo juntos de nuestra Fauna Marina',
