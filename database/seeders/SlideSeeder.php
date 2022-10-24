@@ -16,7 +16,7 @@ class SlideSeeder extends Seeder
     public function run()
     {
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
             'titulo' => 'Visitanos',
@@ -27,6 +27,7 @@ class SlideSeeder extends Seeder
 
         Slide::insert([
             'estado' => 'Publico',
+            'posicion' => 'active',
             'pretitulo' => 'Atención',
             'titulo' => 'Relájate',
             'subtitulo' => '¡tenemos una gran noticia!',
