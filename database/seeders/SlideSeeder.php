@@ -16,6 +16,16 @@ class SlideSeeder extends Seeder
     public function run()
     {
         Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'Destacado',
+            'titulo' => 'Pez Payaso',
+            'subtitulo' => '¡Ven a Conocerlo!',
+            'parrafo' => 'Más conocido como Nemo (Película Buscando a Nemo) un pez de colores fuertes y muy dinámico. Lo tenemos acá, en Acuario Valparaíso.',
+            'imagen' => 'img/animal11.png',
+        ]);
+
+        Slide::insert([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
@@ -27,7 +37,6 @@ class SlideSeeder extends Seeder
 
         Slide::insert([
             'estado' => 'Publico',
-            'posicion' => 'active',
             'pretitulo' => 'Atención',
             'titulo' => 'Relájate',
             'subtitulo' => '¡tenemos una gran noticia!',
