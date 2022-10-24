@@ -68,7 +68,7 @@
             - Los recorridos deben ser reservados, por vía mail o teléfono. <br>
             - Contamos con Protocolo COVID-19. <br><br>
             <span class="fw-bold">Para mayor información: <br>
-            <span class="mail_colegio">educacion@acuariovalparaiso.cl</span><br>
+            <span class="mail_colegio">reservas@acuariovalparaiso.cl</span><br>
             +569 76039703</span>
             </p>
         </article>
