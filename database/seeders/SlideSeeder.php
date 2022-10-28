@@ -18,6 +18,18 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Publico',
             'posicion' => 'active',
+            'pretitulo' => 'Descuentos',
+            'titulo' => 'El Mejor Panorama!            ',
+            'subtitulo' => 'Celebra con nosotros la fiesta Halloween',
+            'parrafo' => 'Tenemos un 25% de dcto. en tu entrada, este 31 de oct. y 01 de nov. Ven y asómbrate con nuestra Fauna Marina. <br>
+                            *Dcto. válido solo para niños hasta los 12 años. <br>
+                            *No acumulable con otras promociones. <br>
+                            *Estaremos atendiendo todos los días.',
+            'imagen' => 'img/animal12.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
             'pretitulo' => 'Destacado',
             'titulo' => 'Pez Payaso',
             'subtitulo' => '¡Ven a Conocerlo!',
@@ -36,7 +48,7 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'pretitulo' => 'Atención',
             'titulo' => 'Relájate',
             'subtitulo' => '¡tenemos una gran noticia!',
@@ -53,7 +65,7 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'titulo' => 'Amazonas',
             'subtitulo' => 'El rio más caudaloso del mundo',
             'parrafo' => '6.500 litros de agua dulce en nuestro acuario, Ven a conocer el acuario Amazónico y asombrate con los diferentes peces que tenemos.',
@@ -61,7 +73,7 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'titulo' => 'Descubre Fósiles',
             'subtitulo' => 'Sala de la evolución',
             'parrafo' => 'Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.',

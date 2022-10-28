@@ -10,7 +10,7 @@
                     @if($slide->subtitulo)<h2 class="subtit_carrusel">{{$slide->subtitulo}}</h2>@endif
                     @if($slide->parrafo)
                         <p class="pt-3">
-                            {{$slide->parrafo}}
+                            {!! $slide->parrafo !!}
                         </p>
                     @endif
                     </div>
