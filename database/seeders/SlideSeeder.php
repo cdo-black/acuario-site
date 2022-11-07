@@ -18,8 +18,19 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Publico',
             'posicion' => 'active',
+            'pretitulo' => 'Atención',
+            'titulo' => 'Ven con tu Colegio',
+            'subtitulo' => 'Disfruta estos últimos días con tu curso',
+            'parrafo' => 'No esperes más! Ven a aprender y disfrutar junto a tu curso, 
+                            jardín infantil o colegio y aprovecha estos últimos días de colegiatura 
+                            junto a todo el mundo acuático que te ofrece Acuario Valparaíso.',
+            'imagen' => 'img/animal13.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Borrador',
             'pretitulo' => 'Descuentos',
-            'titulo' => 'El Mejor Panorama!            ',
+            'titulo' => 'El Mejor Panorama!',
             'subtitulo' => 'Celebra con nosotros la fiesta Halloween',
             'parrafo' => 'Tenemos un 25% de dcto. en tu entrada, este 31 de oct. y 01 de nov. Ven y asómbrate con nuestra Fauna Marina. <br>
                             *Dcto. válido solo para niños hasta los 12 años. <br>
