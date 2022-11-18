@@ -18,6 +18,28 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Publico',
             'posicion' => 'active',
+            'pretitulo' => 'Descuento',
+            'titulo' => '¡Atención Universitario!',
+            'subtitulo' => '50% de descuento en tu entrada',
+            'parrafo' => 'No dejes pasar esta oportunidad y ven a visitarnos, descuento aplicable solo los días lunes, 
+                            martes y miércoles desde el 14 al 30 de noviembre, Aplicable con cualquier medio de pago, 
+                            no acumulable con otras promociones.',
+            'imagen' => 'img/animal14.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'pretitulo' => 'Descuento',
+            'titulo' => 'Diversión en Familia',
+            'subtitulo' => '25% de descuento en tu entrada',
+            'parrafo' => 'Ven a pasarlo genial junto a tu familia, descuento válido a partir de 4 integrantes, 
+                            sólo los días lunes, martes y miércoles desde el 14 al 30 de noviembre, 
+                            Aplicable con cualquier medio de pago, no acumulable con otras promociones.',
+            'imagen' => 'img/animal15.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
             'pretitulo' => 'Atención',
             'titulo' => 'Ven con tu Colegio',
             'subtitulo' => 'Disfruta estos últimos días con tu curso',
@@ -40,7 +62,7 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'pretitulo' => 'Destacado',
             'titulo' => 'Pez Payaso',
             'subtitulo' => '¡Ven a Conocerlo!',
