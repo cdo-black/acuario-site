@@ -18,6 +18,15 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Publico',
             'posicion' => 'active',
+            'pretitulo' => 'Concurso',
+            'titulo' => '¿Existen Tiburones en Chile?',
+            'subtitulo' => 'Participa junto a nosotros',
+            'parrafo' => 'Responde la pregunta y estarás participando por 4 entradas para que vengas con quien quieras. Búscanos en Redes Sociales y participa.',
+            'imagen' => 'img/animal16.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
             'pretitulo' => 'Descuento',
             'titulo' => '¡Atención Universitario!',
             'subtitulo' => '50% de descuento en tu entrada',
