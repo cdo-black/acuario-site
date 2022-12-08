@@ -18,6 +18,17 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Publico',
             'posicion' => 'active',
+            'pretitulo' => 'Atención',
+            'titulo' => '08 de Diciembre',
+            'subtitulo' => 'Ven a visitarnos',
+            'parrafo' => 'Este Jueves 08 de Dic. estaremos atendiendo desde las 10:00 hasta las 19:00 hrs. para que puedas disfrutar de un día con 
+            un panorama diferente, divertido y de gran enseñanza sobre el mundo acuario de Chile y el mundo.',
+            'imagen' => 'img/animal17.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Borrador',
+            'posicion' => 'active',
             'pretitulo' => 'Concurso',
             'titulo' => '¿Existen Tiburones en Chile?',
             'subtitulo' => 'Participa junto a nosotros',
@@ -26,7 +37,7 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'pretitulo' => 'Descuento',
             'titulo' => '¡Atención Universitario!',
             'subtitulo' => '50% de descuento en tu entrada',
@@ -37,7 +48,7 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'pretitulo' => 'Descuento',
             'titulo' => 'Diversión en Familia',
             'subtitulo' => '25% de descuento en tu entrada',
@@ -49,7 +60,6 @@ class SlideSeeder extends Seeder
 
         Slide::insert([
             'estado' => 'Publico',
-            'pretitulo' => 'Atención',
             'titulo' => 'Ven con tu Colegio',
             'subtitulo' => 'Disfruta estos últimos días con tu curso',
             'parrafo' => 'No esperes más! Ven a aprender y disfrutar junto a tu curso, 
