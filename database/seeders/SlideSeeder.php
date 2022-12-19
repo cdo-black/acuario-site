@@ -18,6 +18,15 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Publico',
             'posicion' => 'active',
+            'pretitulo' => 'Descuentos',
+            'titulo' => 'Una gran oportunidad',
+            'subtitulo' => '25% dcto. en tu entrada',
+            'parrafo' => 'Disfruta de esta promoción para que puedas venir con toda tu familia, obtén un 25% de descuento en tu entrada pagando con tus tarjetas banco BCI y programa el mejor panorama con nosotros.',
+            'imagen' => 'img/animal18.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Borrador',
             'pretitulo' => 'Atención',
             'titulo' => '08 de Diciembre',
             'subtitulo' => 'Ven a visitarnos',
