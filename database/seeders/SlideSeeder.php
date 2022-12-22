@@ -18,6 +18,15 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Publico',
             'posicion' => 'active',
+            'pretitulo' => 'Atención',
+            'titulo' => 'Estaremos Cerrados',
+            'subtitulo' => 'Este 24 y 25 de Diciembre',
+            'parrafo' => 'Amigos Queremos anunciarles que este 24 y 25 de Diciembre nuestro Acuario se mantendrá cerrado por motivos de Fiesta Navideña. Esperamos poder verlos en otra ocasión.',
+            'imagen' => 'img/animal19.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
             'pretitulo' => 'Descuentos',
             'titulo' => 'Una gran oportunidad',
             'subtitulo' => '25% dcto. en tu entrada',
@@ -68,7 +77,7 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'titulo' => 'Ven con tu Colegio',
             'subtitulo' => 'Disfruta estos últimos días con tu curso',
             'parrafo' => 'No esperes más! Ven a aprender y disfrutar junto a tu curso, 
