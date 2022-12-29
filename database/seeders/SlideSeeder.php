@@ -16,7 +16,7 @@ class SlideSeeder extends Seeder
     public function run()
     {
         Slide::insert([
-            'estado' => 'Publico',
+            'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
             'titulo' => 'Estaremos Cerrados',
@@ -27,6 +27,7 @@ class SlideSeeder extends Seeder
 
         Slide::insert([
             'estado' => 'Publico',
+            'posicion' => 'active',
             'pretitulo' => 'Descuentos',
             'titulo' => 'Una gran oportunidad',
             'subtitulo' => '25% dcto. en tu entrada',
@@ -143,7 +144,7 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Borrador',
+            'estado' => 'Publico',
             'titulo' => 'Descubre Fósiles',
             'subtitulo' => 'Sala de la evolución',
             'parrafo' => 'Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.',
