@@ -20,8 +20,8 @@ class SlideSeeder extends Seeder
             'posicion' => 'active',
             'pretitulo' => 'Atención',
             'titulo' => 'Bienvenido Verano',
-            'subtitulo' => '¡Tu panorama perfecto!',
-            'parrafo' => 'Damos la bienvenida a las vacaciones de Verano, ven a visitarnos en nuestro nuevo horario de verano, todos los días de 10:00 a 19:30 hrs. </br> 
+            'subtitulo' => '¡Nuevo horario!',
+            'parrafo' => '¡Damos la bienvenida a las vacaciones de Verano!, ven a visitarnos en nuestro nuevo horario, todos los días de 10:00 a 19:30 hrs. </br> 
                             Asómbrate con toda la naturaleza acuática, con fósiles reales y un montón de enseñanzas y conocimientos del mundo acuático.',
             'imagen' => 'img/animal21.png',
         ]);
@@ -30,9 +30,10 @@ class SlideSeeder extends Seeder
             'estado' => 'Publico',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
-            'titulo' => 'Para este fin de semana',
-            'parrafo' => 'Queremos anunciarles que este sábado 31 de Diciembre por motivos de fiestas de fin de año cerraremos a las 14:30 hrs. </br>
-                            Posteriormente el día 01 de Enero mantendremos cerrado todo el día.',
+            'titulo' => 'este fin de semana',
+            'subtitulo' => '¡Felices Fiestas!',
+            'parrafo' => 'Este sábado 31 de diciembre, por motivos de fiestas de fin de año cerraremos a las 14:30 hrs. </br>
+                            El 01 de enero, mantendremos cerrado todo el día.',
             'imagen' => 'img/animal20.png',
         ]);
 
