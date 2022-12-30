@@ -19,6 +19,27 @@ class SlideSeeder extends Seeder
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
+            'titulo' => 'Bienvenido Verano',
+            'subtitulo' => '¡Tu panorama perfecto!',
+            'parrafo' => 'Damos la bienvenida a las vacaciones de Verano para que en estos días tengas el mejor panorama junto a nosotros. </br>
+                            Asómbrate con toda la naturaleza acuática, con fósiles reales y un montón de enseñanzas y conocimientos del mundo acuático.',
+            'imagen' => 'img/animal21.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'posicion' => 'active',
+            'pretitulo' => 'Atención',
+            'titulo' => 'Para este fin de semana',
+            'parrafo' => 'Queremos anunciarles que este sábado 31 de Diciembre por motivos de fiestas de fin de año cerraremos a las 14:30 hrs. </br>
+                            Posteriormente el día 01 de Enero mantendremos cerrado todo el día.',
+            'imagen' => 'img/animal20.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Borrador',
+            'posicion' => 'active',
+            'pretitulo' => 'Atención',
             'titulo' => 'Estaremos Cerrados',
             'subtitulo' => 'Este 24 y 25 de Diciembre',
             'parrafo' => 'Amigos Queremos anunciarles que este 24 y 25 de Diciembre nuestro Acuario se mantendrá cerrado por motivos de Fiesta Navideña. Esperamos poder verlos en otra ocasión.',
@@ -27,7 +48,6 @@ class SlideSeeder extends Seeder
 
         Slide::insert([
             'estado' => 'Publico',
-            'posicion' => 'active',
             'pretitulo' => 'Descuentos',
             'titulo' => 'Una gran oportunidad',
             'subtitulo' => '25% dcto. en tu entrada',
@@ -58,23 +78,23 @@ class SlideSeeder extends Seeder
         Slide::insert([
             'estado' => 'Borrador',
             'pretitulo' => 'Descuento',
-            'titulo' => '¡Atención Universitario!',
-            'subtitulo' => '50% de descuento en tu entrada',
-            'parrafo' => 'No dejes pasar esta oportunidad y ven a visitarnos, descuento aplicable solo los días lunes, 
-                            martes y miércoles desde el 14 al 30 de noviembre, Aplicable con cualquier medio de pago, 
-                            no acumulable con otras promociones.',
-            'imagen' => 'img/animal14.png',
-        ]);
-
-        Slide::insert([
-            'estado' => 'Borrador',
-            'pretitulo' => 'Descuento',
             'titulo' => 'Diversión en Familia',
             'subtitulo' => '25% de descuento en tu entrada',
             'parrafo' => 'Ven a pasarlo genial junto a tu familia, descuento válido a partir de 4 integrantes, 
                             sólo los días lunes, martes y miércoles desde el 14 al 30 de noviembre, 
                             Aplicable con cualquier medio de pago, no acumulable con otras promociones.',
             'imagen' => 'img/animal15.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Borrador',
+            'pretitulo' => 'Descuento',
+            'titulo' => '¡Atención Universitario!',
+            'subtitulo' => '50% de descuento en tu entrada',
+            'parrafo' => 'No dejes pasar esta oportunidad y ven a visitarnos, descuento aplicable solo los días lunes, 
+                            martes y miércoles desde el 14 al 30 de noviembre, Aplicable con cualquier medio de pago, 
+                            no acumulable con otras promociones.',
+            'imagen' => 'img/animal14.png',
         ]);
 
         Slide::insert([
@@ -128,27 +148,13 @@ class SlideSeeder extends Seeder
         ]);
 
         Slide::insert([
-            'estado' => 'Publico',
-            'titulo' => 'Acuario de Valparaíso',
-            'subtitulo' => 'Todo un mundo a explorar',
-            'parrafo' => 'Disfruta de una experiencia extraordinaria a través de un recorrido guiado, donde podrás conocer especies marinas Chilenas, del río Amazonas y de los arrecifes tropicales.',
-            'imagen' => 'img/animal1.png',
-        ]);
-
-        Slide::insert([
             'estado' => 'Borrador',
-            'titulo' => 'Amazonas',
-            'subtitulo' => 'El rio más caudaloso del mundo',
-            'parrafo' => '6.500 litros de agua dulce en nuestro acuario, Ven a conocer el acuario Amazónico y asombrate con los diferentes peces que tenemos.',
-            'imagen' => 'img/animal2.png',
-        ]);
-
-        Slide::insert([
-            'estado' => 'Publico',
-            'titulo' => 'Descubre Fósiles',
-            'subtitulo' => 'Sala de la evolución',
-            'parrafo' => 'Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.',
-            'imagen' => 'img/animal4.png',
+            'posicion' => 'active',
+            'pretitulo' => 'Fiestas Patrias',
+            'titulo' => 'Seguimos con nuestra chilenidad',
+            'subtitulo' => 'Abierto 17, 18 y 19 de Septiembre',
+            'parrafo' => '',
+            'imagen' => 'img/animal8.png',
         ]);
 
         Slide::insert([
@@ -159,16 +165,6 @@ class SlideSeeder extends Seeder
             'subtitulo' => '¡Ven con toda tu familia!',
             'parrafo' => 'Tenemos descuentos exclusivos para tí, revisa más información en nuestras Redes Sociales, síguenos y comenta. Te Esperamos!',
             'imagen' => 'img/animal7.png',
-        ]);
-        
-        Slide::insert([
-            'estado' => 'Borrador',
-            'posicion' => 'inactive',
-            'pretitulo' => 'atención',
-            'titulo' => '¿VACACIONES DE INVIERNO?',
-            'subtitulo' => '¡SÍ, NO TE LO PUEDES PERDER!',
-            'parrafo' => 'Tenemos el mejor panorama para estas vacaciones de invierno, ven a disfrutar de la fauna marina Chilena y del mundo, fósiles reales de hace millones de años y muchas otras novedades.',
-            'imagen' => 'img/animal5.png',
         ]);
 
         Slide::insert([
@@ -190,6 +186,24 @@ class SlideSeeder extends Seeder
             'parrafo' => '¿Fin de semana Largo? Estaremos atendiendo de manera normal, Para que puedas disfrutar de un día agradable, conociendo nuestra fauna marina y aprendiendo de todas las maravillas acuáticas.',
             'imagen' => 'img/animal6.png',
         ]);
+        
+        Slide::insert([
+            'estado' => 'Borrador',
+            'posicion' => 'inactive',
+            'pretitulo' => 'atención',
+            'titulo' => '¿VACACIONES DE INVIERNO?',
+            'subtitulo' => '¡SÍ, NO TE LO PUEDES PERDER!',
+            'parrafo' => 'Tenemos el mejor panorama para estas vacaciones de invierno, ven a disfrutar de la fauna marina Chilena y del mundo, fósiles reales de hace millones de años y muchas otras novedades.',
+            'imagen' => 'img/animal5.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'titulo' => 'Descubre Fósiles',
+            'subtitulo' => 'Sala de la evolución',
+            'parrafo' => 'Prepárate para conocer uno de los descubrimientos más asombrosos del planeta, los Fósiles prehistóricos reales de Chile y el mundo.',
+            'imagen' => 'img/animal4.png',
+        ]);
 
         Slide::insert([
             'estado' => 'Borrador',
@@ -198,17 +212,23 @@ class SlideSeeder extends Seeder
             'titulo' => 'por plebicito de salida',
             'subtitulo' => '',
             'parrafo' => 'Acuario de Valparaiso se mantendrá cerrado el día Domingo 04 Septiembre',
-            'imagen' => '',
+            'imagen' => 'img/animal3.png',
         ]);
 
         Slide::insert([
             'estado' => 'Borrador',
-            'posicion' => 'active',
-            'pretitulo' => 'Fiestas Patrias',
-            'titulo' => 'Seguimos con nuestra chilenidad',
-            'subtitulo' => 'Abierto 17, 18 y 19 de Septiembre',
-            'parrafo' => '',
-            'imagen' => 'img/animal8.png',
+            'titulo' => 'Amazonas',
+            'subtitulo' => 'El rio más caudaloso del mundo',
+            'parrafo' => '6.500 litros de agua dulce en nuestro acuario, Ven a conocer el acuario Amazónico y asombrate con los diferentes peces que tenemos.',
+            'imagen' => 'img/animal2.png',
+        ]);
+
+        Slide::insert([
+            'estado' => 'Publico',
+            'titulo' => 'Acuario de Valparaíso',
+            'subtitulo' => 'Todo un mundo a explorar',
+            'parrafo' => 'Disfruta de una experiencia extraordinaria a través de un recorrido guiado, donde podrás conocer especies marinas Chilenas, del río Amazonas y de los arrecifes tropicales.',
+            'imagen' => 'img/animal1.png',
         ]);
     }
 }
