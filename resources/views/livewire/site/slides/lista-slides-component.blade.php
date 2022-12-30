@@ -29,8 +29,11 @@
                 @forelse ($slides as $slide)
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                        @if(strstr($slide->imagen, '/', true) == 'img')
                         <img src="{{ asset($slide->imagen) }}" alt="">
+                        @else
                         <img src="{{ asset(Storage::url($slide->imagen)) }}" alt="">
+                        @endif
                     </td>
                     <td class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
                         @if ($slide->estado == 'Borrador')
