@@ -21,7 +21,7 @@ class SlideSeeder extends Seeder
             'pretitulo' => 'Atención',
             'titulo' => 'Bienvenido Verano',
             'subtitulo' => '¡Tu panorama perfecto!',
-            'parrafo' => 'Damos la bienvenida a las vacaciones de Verano para que en estos días tengas el mejor panorama junto a nosotros. </br>
+            'parrafo' => 'Damos la bienvenida a las vacaciones de Verano, ven a visitarnos en nuestro nuevo horario de verano, todos los días de 10:00 a 19:30 hrs. </br> 
                             Asómbrate con toda la naturaleza acuática, con fósiles reales y un montón de enseñanzas y conocimientos del mundo acuático.',
             'imagen' => 'img/animal21.png',
         ]);
