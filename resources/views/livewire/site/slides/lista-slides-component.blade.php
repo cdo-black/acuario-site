@@ -37,9 +37,9 @@
                     </td>
                     <td class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
                         @if ($slide->estado == 'Borrador')
-                        <span class="bg-yellow-500 shadow-lg shadow-yellow-500/50 px-4 py-2 rounded-lg">{{ $slide->estado }}</span>
+                        <button wire:click="statusBorrador({{$slide->id}})" class="bg-yellow-500 shadow-lg shadow-yellow-500/50 px-4 py-2 rounded-lg">{{ $slide->estado }}</button>
                         @else
-                        <span class="bg-green-500 shadow-lg shadow-green-500/50 px-4 py-2 rounded-lg">{{ $slide->estado }}</span>
+                        <button wire:click="statusPubicar({{$slide->id}})" class="bg-green-500 shadow-lg shadow-green-500/50 px-4 py-2 rounded-lg">{{ $slide->estado }}</button>
                         @endif
                         
                     </td>

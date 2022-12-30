@@ -16,8 +16,10 @@
                     </div>
  
                     <div class="col12 col-lg-6 order-1">
-                        @if($slide->imagen)
-                        <img src="{{ $slide->imagen }}" class="d-block w-100" alt="Animal Acuario">
+                        @if(strstr($slide->imagen, '/', true) == 'img')
+                        <img src="{{ asset($slide->imagen) }}" class="d-block w-100" alt="Animal Acuario">
+                        @else
+                        <img src="{{ asset(Storage::url($slide->imagen)) }}" class="d-block w-100" alt="Animal Acuario">
                         @endif
                     </div>
                 </div>

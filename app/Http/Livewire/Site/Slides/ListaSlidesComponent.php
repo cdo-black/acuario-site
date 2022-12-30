@@ -13,6 +13,7 @@ class ListaSlidesComponent extends Component
     public $search = '';
     public $sortBy = '';
     public $sortDirection = 'desc';
+    public $slider;
 
     protected $listeners = ['renderSlides'=>'render'];
 
@@ -44,4 +45,30 @@ class ListaSlidesComponent extends Component
 
         return view('livewire.site.slides.lista-slides-component', compact('slides'));
     }
+ 
+    public function statusBorrador($id)
+    {
+        $slide = Slide::find($id);
+
+        $slide->update([
+            'estado' => 'Publico',
+        ]);
+
+        $this->emit('renderSlides');
+        $this->emit('alert', 'Slide publicado con éxito!!');
+    }
+ 
+    public function statusPubicar($id)
+    {
+        $slide = Slide::find($id);
+
+        $slide->update([
+            'estado' => 'Borrador',
+        ]);
+
+        $this->emit('renderSlides');
+        $this->emit('alert', 'Slide en borrador!!');
+    }
+
+
 }
