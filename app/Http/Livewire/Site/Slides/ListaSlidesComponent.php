@@ -11,8 +11,6 @@ class ListaSlidesComponent extends Component
     use WithPagination;
 
     public $search = '';
-    public $sortBy = '';
-    public $sortDirection = 'desc';
     public $slider;
 
     protected $listeners = ['renderSlides'=>'render'];
@@ -22,26 +20,9 @@ class ListaSlidesComponent extends Component
         $this->resetPage();
     }
 
-    public function sortBy($field)
-    {
-        $this->sortDirection = $this->sortBy === $field
-            ? $this->reverseSort()
-            : 'asc';
- 
-        $this->sortBy = $field;
-    }
- 
-    public function reverseSort()
-    {
-        return $this->sortDirection === 'asc'
-            ? 'desc'
-            : 'asc';
-    }
-    
-
     public function render()
     {
-        $slides = Slide::search('subtitulo', $this->search)->orderBy($this->sortBy, $this->sortDirection)->paginate(10);
+        $slides = Slide::search('subtitulo', $this->search)->orderBy('id', 'desc')->paginate(10);
 
         return view('livewire.site.slides.lista-slides-component', compact('slides'));
     }

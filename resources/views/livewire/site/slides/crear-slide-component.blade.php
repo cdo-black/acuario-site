@@ -1,11 +1,11 @@
 <div>
     <x-jet-danger-button wire:click="$set('openModal', true)">
-        Crear nuevo slide
+        nuevo slide
     </x-jet-danger-button>
 
     <x-jet-dialog-modal wire:model="openModal">
         <x-slot name="title">
-            Crear nuevo Slide
+            Ingresa los datos del nuevo slide
         </x-slot>
 
         <x-slot name="content">
@@ -46,7 +46,7 @@
             <!-- Parrafo -->
             <div class="col-span-6 sm:col-span-4 mt-3 ">
                 <x-jet-label for="parrafo" value="Parrafo" />
-                <textarea name="parrafo" id="parrafo" rows="6" class="form-control mt-1 block w-full" wire:model="parrafo"></textarea>
+                <textarea name="parrafo" id="parrafo" rows="5" class="form-control mt-1 block w-full" wire:model="parrafo"></textarea>
                 <x-jet-input-error for="parrafo" class="mt-2" />
             </div>
 

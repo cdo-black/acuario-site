@@ -9,7 +9,7 @@ class PageController extends Controller
 {
     public function welcome()
     {
-        $slides = Slide::where('estado', 'Publico')->get();
+        $slides = Slide::where('estado', 'Publico')->orderBy('id', 'desc')->get();
 
         return view('site.welcome', compact('slides'));
     }
