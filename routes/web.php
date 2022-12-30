@@ -20,7 +20,7 @@ Route::get('/contacto', [PageController::class, 'contact'])->name('contacto');
 
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
-})->name('dashboard');
+})->name('dashboard')->middleware('auth');
 
 Route::prefix('admin')->group(function () {
 

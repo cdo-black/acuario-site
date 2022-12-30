@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('subtitulo')->nullable();
             $table->text('parrafo')->nullable();
             $table->string('imagen')->nullable();
+            
             $table->timestamps();
         });
     }

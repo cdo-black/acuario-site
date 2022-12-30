@@ -12,10 +12,11 @@
 		<link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/favicon.ico') }}">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        @livewireStyles
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        @livewireStyles
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased  dark:text-gray-400">
         <x-jet-banner />
 
         <div class="min-h-screen bg-gray-100">
@@ -39,5 +40,18 @@
         @stack('modals')
 
         @livewireScripts
+        <script>
+            Livewire.on('alert', function(message) {
+                Swal.fire({
+                    position: 'top-end',
+                    title:  message,
+                    // text: message,
+                    icon: 'success',
+                    // confirmButtonText: 'Aceptar',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            })
+        </script>
     </body>
 </html>

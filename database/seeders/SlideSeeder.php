@@ -15,7 +15,7 @@ class SlideSeeder extends Seeder
      */
     public function run()
     {
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
@@ -26,7 +26,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal21.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Publico',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
@@ -37,7 +37,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal20.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
@@ -47,7 +47,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal19.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Publico',
             'pretitulo' => 'Descuentos',
             'titulo' => 'Una gran oportunidad',
@@ -56,7 +56,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal18.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'pretitulo' => 'Atención',
             'titulo' => '08 de Diciembre',
@@ -66,7 +66,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal17.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Concurso',
@@ -76,7 +76,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal16.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'pretitulo' => 'Descuento',
             'titulo' => 'Diversión en Familia',
@@ -87,7 +87,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal15.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'pretitulo' => 'Descuento',
             'titulo' => '¡Atención Universitario!',
@@ -98,7 +98,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal14.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'titulo' => 'Ven con tu Colegio',
             'subtitulo' => 'Disfruta estos últimos días con tu curso',
@@ -108,7 +108,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal13.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'pretitulo' => 'Descuentos',
             'titulo' => 'El Mejor Panorama!',
@@ -120,7 +120,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal12.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'pretitulo' => 'Destacado',
             'titulo' => 'Pez Payaso',
@@ -129,7 +129,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal11.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Atención',
@@ -139,7 +139,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal10.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'pretitulo' => 'Atención',
             'titulo' => 'Relájate',
@@ -148,7 +148,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal9.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Fiestas Patrias',
@@ -158,7 +158,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal8.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'inactive',
             'pretitulo' => 'descuentos',
@@ -168,7 +168,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal7.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'Concurso',
@@ -178,7 +178,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal6.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'atención',
@@ -188,7 +188,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal6.png',
         ]);
         
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'inactive',
             'pretitulo' => 'atención',
@@ -198,7 +198,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal5.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Publico',
             'titulo' => 'Descubre Fósiles',
             'subtitulo' => 'Sala de la evolución',
@@ -206,17 +206,16 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal4.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'posicion' => 'active',
             'pretitulo' => 'cerrado',
             'titulo' => 'por plebicito de salida',
-            'subtitulo' => '',
             'parrafo' => 'Acuario de Valparaiso se mantendrá cerrado el día Domingo 04 Septiembre',
             'imagen' => 'img/animal3.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Borrador',
             'titulo' => 'Amazonas',
             'subtitulo' => 'El rio más caudaloso del mundo',
@@ -224,7 +223,7 @@ class SlideSeeder extends Seeder
             'imagen' => 'img/animal2.png',
         ]);
 
-        Slide::insert([
+        Slide::create([
             'estado' => 'Publico',
             'titulo' => 'Acuario de Valparaíso',
             'subtitulo' => 'Todo un mundo a explorar',
