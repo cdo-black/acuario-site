@@ -19,6 +19,8 @@
             <div class="col-span-6 sm:col-span-4 mb-3">
                 @if ($imagen)
                 <img src="{{ $imagen->temporaryUrl() }}">
+                @elseif(strstr($slide->imagen, '/', true) == 'img')
+                <img src="{{ asset($slide->imagen) }}" alt="">
                 @else
                 <img src="{{ asset(Storage::url($slide->imagen)) }}" alt="">
                 @endif
