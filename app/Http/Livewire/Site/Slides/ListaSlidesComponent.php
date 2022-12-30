@@ -29,10 +29,19 @@ class ListaSlidesComponent extends Component
  
     public function statusBorrador($id)
     {
+        $slide_activo = Slide::where('posicion', 'active')->first();
+
+        // dd($slide_activo);
+
+        $slide_activo->update([
+            'posicion' => 'inactive',
+        ]);
+
         $slide = Slide::find($id);
 
         $slide->update([
             'estado' => 'Publico',
+            'posicion' => 'active',
         ]);
 
         $this->emit('renderSlides');

@@ -33,7 +33,6 @@ class SlideSeeder extends Seeder
 
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'cerrado',
             'titulo' => 'por plebicito de salida',
             'parrafo' => 'Acuario de Valparaiso se mantendrá cerrado el día Domingo 04 Septiembre',
@@ -50,7 +49,6 @@ class SlideSeeder extends Seeder
         
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'inactive',
             'pretitulo' => 'atención',
             'titulo' => '¿VACACIONES DE INVIERNO?',
             'subtitulo' => '¡SÍ, NO TE LO PUEDES PERDER!',
@@ -60,7 +58,6 @@ class SlideSeeder extends Seeder
         
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'Concurso',
             'titulo' => 'Celebramos el',
             'subtitulo' => 'día del niño',
@@ -70,7 +67,6 @@ class SlideSeeder extends Seeder
 
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'atención',
             'titulo' => 'Abierto al Público',
             'subtitulo' => 'Lunes 15 de agosto',
@@ -80,7 +76,6 @@ class SlideSeeder extends Seeder
 
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'inactive',
             'pretitulo' => 'descuentos',
             'titulo' => 'En Fiestas Patrias, Visítanos',
             'subtitulo' => '¡Ven con toda tu familia!',
@@ -90,7 +85,6 @@ class SlideSeeder extends Seeder
 
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'Fiestas Patrias',
             'titulo' => 'Seguimos con nuestra chilenidad',
             'subtitulo' => 'Abierto 17, 18 y 19 de Septiembre',
@@ -109,7 +103,6 @@ class SlideSeeder extends Seeder
 
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'Atención',
             'titulo' => 'Visitanos',
             'subtitulo' => 'Éste fin de semana largo 8-9-10 de Octubre',
@@ -172,7 +165,6 @@ class SlideSeeder extends Seeder
 
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'Concurso',
             'titulo' => '¿Existen Tiburones en Chile?',
             'subtitulo' => 'Participa junto a nosotros',
@@ -201,7 +193,6 @@ class SlideSeeder extends Seeder
 
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'Atención',
             'titulo' => 'Estaremos Cerrados',
             'subtitulo' => 'Este 24 y 25 de Diciembre',
@@ -222,7 +213,6 @@ class SlideSeeder extends Seeder
 
         Slide::create([
             'estado' => 'Borrador',
-            'posicion' => 'active',
             'pretitulo' => 'Atención',
             'titulo' => 'Bienvenido Verano',
             'subtitulo' => '¡Nuevo horario!',
