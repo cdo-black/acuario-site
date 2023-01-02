@@ -50,10 +50,10 @@
 <section class="container">
     <div class="row justify-content-center m-0">
         <article class="col-12 col-md-4 col-lg-3 color_celeste text-center border_general mx-3 my-3 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay="0.5s">
-            <h1 class="tit_general pb-2">Horarios</h1>
+            <h1 class="tit_general pb-2">Horario</h1>
             <p>
                 Todos los días <br>
-                10:00 a 19:30 hrs.
+                10:00 a 19:00 hrs.
             </p>
             {{-- <p>
                 Lunes a Viernes <span class="break"></span>
