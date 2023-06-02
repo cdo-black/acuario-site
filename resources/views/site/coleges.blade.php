@@ -46,30 +46,46 @@
         </article>
 
         <article class="col-12 col-lg-3 text-center border_general color_celeste mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-            <h1 class="tit_general pb-3">Material de Apoyo complementario</h1>
-            <p>Para potenciar aún más la educación de cada alumno, enviaremos una guía de material de apoyo complementario a tu visita pedagógica con preguntas para realizar en el salón de clases, posterior a la visita de nuestro acuario. </p>
+            <h1 class="tit_general pb-3">Valores de Reservas @php echo date('Y') @endphp</h1>
+            <p>
+                Estudiante $2.500 <br>
+                Docente $3.500 <br>
+                Adulto $3.500 <br>
+                Horario: 09:00 a 17:30 hrs.
+                <h1 class="tit_general pb-2">MEDIOS DE PAGO</h1>
+                Efectivo, Débito, Crédito <br>
+                Mercado Público <br>
+                - Orden Compra <br>
+                - Compra Ágil
+            </p>
         </article>
 
         <article class="col-12 col-lg-3 text-center border_general color_celeste mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
-            <h1 class="tit_general pb-3">Reservas Educacionales 2022</h1>
-            <p>Estudiante $2.500 <br>
-                Adultos $3.500 <br>
-                Horario: 09:00 a 17:30 hrs.
+            <h1 class="tit_general pb-3">Pasos para reservar @php echo date('Y') @endphp</h1>
+            <p>
+                <ol>
+                    <li>Solicitar reserva vía mail</li>
+                    <li>Acuario envia formulario</li>
+                    <li>Llenado del formulario &nbsp; &nbsp;</li>
+                    <li>Enviar form. completado</li>
+                    <li>Abonar el 30% del total &nbsp;</li>
+                    <li>Enviar comprobante pago</li>
+                    <li>Confirmación de tu visita &nbsp;</li>
+                </ol>
             </p>
         </article>
                 
         <article class="col-12 col-lg-6 text-center border_general color_celeste mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
             <h1 class="tit_general pb-3">Recorrido de cursos</h1>
-            <p>Disfruta de nuestros recorridos guiados <br><br>
+            <p>Disfruta de nuestros recorridos guiados <br><br> 
             - Capacidad para 10 alumnos más la compañía de un profesor, educador o adulto responsable. <br>
             - El recorrido abarca 3 pisos, acceso solo por escaleras. <br>
             - Duración 30 minutos. <br>
             - Los grupos ingresan al recinto cada 15 minutos (se mantiene un grupo por piso, para mantener el aforo). <br>
-            - Los recorridos deben ser reservados, por vía mail o teléfono. <br>
-            - Contamos con Protocolo COVID-19. <br><br>
+            - Los recorridos deben ser reservados, por vía correo electrónico. <br><br>
             <span class="fw-bold">Para mayor información: <br>
             <span class="mail_colegio">reservas@acuariovalparaiso.cl</span><br>
-            +569 76039703</span>
+            +569 7601 7582</span>
             </p>
         </article>
     </div>
