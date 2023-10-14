@@ -106,11 +106,11 @@
             <p class="color_celeste pb-5">Administradora Acuario</p>
         </article>
 
-        <article class="col-12 col-md-4 col-lg-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+        {{-- <article class="col-12 col-md-4 col-lg-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
             <img src="img/equipo3_Yelika.jpg" class="img_equipo" alt="imagen equipo">
             <h2 class="nombre_equipo pt-4">Yelika <br>Henríquez</h2>
             <p class="color_celeste pb-5">Área Eduación Acuario</p>
-        </article>
+        </article> --}}
     </div>
 </section>
   
