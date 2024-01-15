@@ -55,7 +55,7 @@
                 Todos los días <br>
                 10:00 a 19:00 hrs.
             </p>
-           {{--  <p>
+            {{-- <p>
                 Lunes a Viernes <span class="break"></span>
                 09:00 a 18:00 hrs.
             </p> --}}

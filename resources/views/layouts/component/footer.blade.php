@@ -71,7 +71,7 @@
 <div class="container-fluid bg_piePagina py-3">
     <div class="row">
         <div class="col-12 color_celeste text-center d-block d-lg-flex  justify-content-center">
-            <p class="m-0 piePagina"> <i class="far fa-copyright"></i> @php echo date('Y') @endphp Copyright: acuariovalparaiso.cl - Todos los Derechos Reservados -</p> <a href="" class="btn_piePagina px-2">ASD Informáticos</a>  -  <a href="https://www.adrianrios.cl/" target="_blank" class="btn_piePagina ps-2">Diseño Adrián Ríos.</a>
+            <p class="m-0 piePagina"> <i class="far fa-copyright"></i> Copyright: acuariovalparaiso.cl - Todos los Derechos Reservados -</p> <a href="" class="btn_piePagina px-2">ASD Informáticos</a>  -  <a href="https://www.adrianrios.cl/" target="_blank" class="btn_piePagina ps-2">Diseño Adrián Ríos.</a>
         </div>
     </div>
 </div>
