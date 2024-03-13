@@ -51,14 +51,14 @@
     <div class="row justify-content-center m-0">
         <article class="col-12 col-md-4 col-lg-3 color_celeste text-center border_general mx-3 my-3 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay="0.5s">
             <h1 class="tit_general pb-2">Horarios</h1>
-            <p>
+            {{-- <p>
                 Todos los días <br>
                 10:00 a 19:00 hrs.
-            </p>
-            {{-- <p>
+            </p> --}}
+            <p>
                 Lunes a Viernes <span class="break"></span>
                 09:00 a 18:00 hrs.
-            </p> --}}
+            </p>
             <p>
                 Sábado, Domingo y Festivos <br>
                 10:00 a 19:00 hrs.
