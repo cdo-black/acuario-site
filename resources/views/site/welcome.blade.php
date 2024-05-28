@@ -53,6 +53,7 @@
             <h1 class="tit_general pb-2">Horarios</h1>
             <p>
                 Lunes a Domingo <br>
+		incluido feriados <br>
                 09:00 a 18:00 hrs.
             </p>
             {{-- <p>
